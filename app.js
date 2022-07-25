@@ -16,7 +16,7 @@ app.use(express.static("public"));
 
 mongoose.connect("mongodb+srv://admin-Sahil:test-123@cluster0.gr3sp.mongodb.net/todolistDB");
 
-const itemSchema = new  mongoose.Schema({
+const itemSchema = new mongoose.Schema({
   name: {
     type : String,
     // required : true
